@@ -1,2 +1,52 @@
-node_modules
-node_modules
+# Angular related
+node_modules/
+dist/
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Angular build and cache
+.angular/
+.angular-cache/
+coverage/
+build/
+out-tsc/
+/*.log
+/src/environments/environment.ts
+
+# Angular testing
+/coverage
+/test-reports
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.metadata/
+recommenders/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Misc
+*.bak
+*.tmp
+*.tmp.*
+*.swp
+*.swp.*
